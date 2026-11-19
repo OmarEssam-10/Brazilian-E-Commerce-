@@ -49,5 +49,9 @@ São Paulo leads customer volume with 16K, followed by Rio de Janeiro (7K), Belo
 ├── sql/                        # Data cleaning, KPI & statistical SQL scripts
 ├── python/                     # EDA, data cleaning & statistical analysis scripts/notebooks
 ├── powerbi/                    # Interactive Power BI dashboard file (.pbix)
-├── images/                     # Dashboard screenshots
 └── README.md                   # Project documentation
+
+Strategic Recommendations
+1. Freight & Packaging Optimization: Audit shipping rates and packaging dimensions/weights for heavy and oversized categories (such as moveis_escritorio, moveis_colchao_e_est..., and items with product_weight_g > 11350 or product_length_cm > 51) to control freight cost escalation.  
+2. Regional Logistics & Fulfillment: Focus inventory positioning and delivery speed in high-demand hubs like São Paulo and Rio de Janeiro to protect conversion and sustain high review scores.  
+3. Median-Informed Pricing & Margin Review: Pair median price and freight benchmarks ($74.99 and $16.26) with category-level margins so high-freight or high-ticket categories maintain healthy profitability.
